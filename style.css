@@ -1,0 +1,371 @@
+@font-face {
+   font-family: 'Lato-Bold';
+   src: url('lato/Lato-Bold.ttf') format('truetype');
+   font-weight: normal;
+   font-style: normal;
+}
+@font-face {
+   font-family: 'Lato-Medium';
+   src: url('lato/Lato-Medium.ttf') format('truetype');
+   font-weight: normal;
+   font-style: normal;
+}
+@font-face {
+   font-family: 'Lato-Light';
+   src: url('lato/Lato-Light.ttf') format('truetype');
+   font-weight: normal;
+   font-style: normal;
+}
+
+
+.Head{
+	background:url(img//hero-bg.jpg.png);
+	background-size: 100%;
+	height: 740px;
+	margin: -8px;
+}
+.Logo{
+	padding-left:47%;
+	padding-top: 180px;
+}
+.Head__1{
+	text-align: center;
+	margin-top:100px;
+	font-size: 50px;
+	font-weight: 700px;
+	color: white;
+	font-family: Lato-Bold;
+}
+.Head__Descript{
+	text-align: center;
+	width: 579px;
+	height: 70px;
+	margin:0 auto;
+	font-size: 15px;
+	color: white;
+	line-height: 31px;
+	margin-top: 40px;
+	font-family: Lato-Light;
+
+}
+
+.scroll{
+	padding-left: 49%;
+	padding-top: 100px;
+}
+
+.Main1__img{
+	margin-left: 16%;
+	border-style: none;
+	position: relative;
+	margin-top: 270px;
+}
+
+.Main1__About{
+	position:absolute;
+	margin-top:250px;
+	margin-left: 563px;
+	font-size: 34px;
+	color:#151515;
+	font-family: Lato-Bold;
+}
+
+
+.Main1__Descript{
+	position: absolute;
+	text-align: center;
+	width: 550px;
+	margin-left: 29%;
+	margin-top: 350px;
+	color:#151515;
+	font-family: Lato-Light;
+}
+
+
+
+.Main2__img{
+	margin-left: 16%;
+	border-style: none;
+	position: relative;
+	margin-top: 50px;
+}
+
+.Main2__Head{
+	position:absolute;
+	margin-top:30px;
+	margin-left: 565px;
+	font-size: 34px;
+	color: white;
+	font-family: Lato-Bold;
+}
+
+
+.Main2__Descript{
+	position: absolute;
+	text-align: center;
+	width: 450px;
+	margin-left: 32.5%;
+	margin-top: 100px;
+	color:white;
+	line-height: 40px;
+	font-family: Lato-Light;
+}
+
+.Main2{
+	margin-top: 200px;
+background:url(img//services.jpg.png);
+height: 340px;
+background-size: 100%;
+}
+
+.Main3__img{
+	margin-left: 16%;
+	border-style: none;
+	position: relative;
+	margin-top: 140px;
+}
+
+.Main3__Head{
+		position:absolute;
+	margin-top:123px;
+	margin-left: 550px;
+	font-size: 34px;
+	color:#151515;	
+	font-family: Lato-Bold;
+}
+
+.Main3__Shape1{
+	position: absolute;
+	margin-top: 235px;
+	margin-left: 46%;
+}
+
+.Main3__Head1{
+	position: absolute;
+	margin-top: 365px;
+	margin-left: 45.5%;
+	font-size: 25px;
+	color:#151515;
+	font-family: Lato-Medium;
+}
+
+.Main3__Descript1{
+	position: absolute;
+	margin-top: 425px;
+	margin-left: 32.5%;
+	width: 450px;
+	text-align: center;
+	line-height: 30px;
+	color:#151515;
+	font-family: Lato-Light;
+}
+
+.Main3__Shape2{
+	position: absolute;
+	margin-top: 635px;
+	margin-left: 46%;
+}
+
+.Main3__Head2{
+	position: absolute;
+	margin-top: 765px;
+	margin-left: 42.5%;
+	font-size: 25px;
+	color:#151515;
+	font-family: Lato-Medium;
+}
+
+.Main3__Descript2{
+	position: absolute;
+	margin-top: 825px;
+	margin-left: 32.5%;
+	width: 450px;
+	text-align: center;
+	line-height: 30px;
+	color:#151515;
+	font-family: Lato-Light;
+}
+
+.Main3__Shape3{
+	position: absolute;
+	margin-top: 1000px;
+	margin-left: 46%;
+}
+
+.Main3__Head3{
+	position: absolute;
+	margin-top: 1140px;
+	margin-left: 39%;
+	font-size: 25px;
+	color:#151515;
+	font-family: Lato-Medium;
+}
+
+.Main3__Descript3{
+	position: absolute;
+	margin-top: 1200px;
+	margin-left: 32.5%;
+	width: 450px;
+	text-align: center;
+	line-height: 30px;
+	color:#151515;
+	font-family: Lato-Light;
+}
+
+.grid{
+	width: 100%;
+height: 460px;
+color: #ffffff;
+font-size: 35px;
+margin-top: 100px;
+margin-bottom: 120px;
+}
+
+.grid__row1{
+	background: url("img//Topworkz.png");
+width: 29.5%;
+height: 50%;
+float: left;
+border: 2px solid #ffffff;
+}
+
+.grid__row2{
+	background: url("img//Joint.png");
+width: 40%;
+height: 50%;
+display: block;
+float: left;
+border: 2px solid #ffffff;
+}
+
+.grid__row3{
+background: url("img//Market.png");
+width: 29.5%;
+height: 50%;
+display: block;
+float: left;
+border: 2px solid #ffffff;
+}
+
+.grid__row4{
+	background: url("img//Worktop.png");
+width: 29.5%;
+height: 50%;
+float: left;
+border: 2px solid #ffffff;
+}
+
+.grid__row5{
+	background: url("img//Lable.png");
+width: 40%;
+height: 50%;
+display: block;
+float: left;
+border: 2px solid #ffffff;
+}
+
+.grid__row6{
+background: url("img//Kyiv.png");
+width: 29.5%;
+height: 50%;
+display: block;
+float: left;
+border: 2px solid #ffffff;
+}
+
+.grid__row11{
+	display: block;
+	margin-top: 170px;
+	margin-left: 30px;
+	font-family: Lato-Bold;
+}
+.grid__row22{
+	display: block;
+	margin-top: 170px;
+	margin-left: 30px;
+	font-family: Lato-Bold;
+}
+.grid__row33{
+	display: block;
+	margin-top: 170px;
+	margin-left: 30px;
+	font-family: Lato-Bold;
+}
+.grid__row44{
+	display: block;
+	margin-top: 170px;
+	margin-left: 30px;
+	font-family: Lato-Bold;
+}
+.grid__row55{
+	display: block;
+	margin-top: 170px;
+	margin-left: 30px;
+	font-family: Lato-Bold;
+}
+.grid__row66{
+	display: block;
+	margin-top: 170px;
+	margin-left: 30px;
+	font-family: Lato-Bold;
+}
+
+.Main4__img{
+	margin-left: 16%;
+	border-style: none;
+	position: relative;
+	margin-top: 50px;
+}
+
+.Main4__Head{
+	position:absolute;
+	margin-top:35px;
+	margin-left: 42%;
+	font-size: 34px;
+	color:#151515;
+	font-family: Lato-Bold;
+
+}
+
+
+.Main4__Descript{
+	position: absolute;
+	text-align: center;
+	width: 450px;
+	margin-left: 32.5%;
+	margin-top: 105px;
+    color:#151515;
+	line-height: 40px;
+	font-family: Lato-Light;
+}
+
+.Main4__Button{
+	position:absolute;
+	margin-left: 38.8%;
+	width:300px;
+	background:#151515;
+	color:white;
+	height: 50;
+	font-size: 18px;
+	margin-top: 270px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+	font-family: Lato-Medium;
+}
+
+.footer__logo{
+	margin-left: 36%;
+	position: absolute;
+	margin-top: 100px;
+}
+.footer__descript{
+	margin-left: 40%;
+	position: absolute;
+	margin-top: 110px;
+	margin-bottom: 100px;
+	color:dimgray;
+	font-family: Lato-Light;
+}
+
